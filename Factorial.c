@@ -1,4 +1,6 @@
 #include <stdio.h>
+// for n == k || k = 0 -> (n k) = 1
+// (n k) = (n-1 k-1) + (n-1 k)
 
 int fact(int n, int k)
 {
